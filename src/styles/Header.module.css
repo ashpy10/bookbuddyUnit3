@@ -1,0 +1,44 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding-bottom: 1rem;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: white;
+}
+
+.logo {
+	font-size: 3.5rem;
+	color: #b86c4a;
+	font-family: 'Mochiy Pop One', cursive;
+	margin-bottom: 2rem;
+}
+
+.nav {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.navItem {
+	background: none;
+	border: none;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+	transition: background-color 0.2s ease;
+	text-decoration: none;
+}
+
+.navItem:hover {
+	background-color: #ece3d4;
+	border-radius: 8px;
+}
+
+.active {
+	background-color: #d2c3b1;
+	border-radius: 8px;
+}

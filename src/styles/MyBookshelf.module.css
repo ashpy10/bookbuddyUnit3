@@ -1,0 +1,80 @@
+.container {
+    box-sizing: border-box;
+    
+}
+
+.greeting {
+	font-size: 1.5rem;
+	color: #b86c4a;
+	margin-bottom: 2rem;
+    text-align: center;
+}
+
+.loading {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+.tab, .activeTab {
+	padding: 0.5rem 1.25rem;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.tab {
+	background-color: #f0e6d6;
+	color: #695D4E;
+}
+
+.activeTab {
+	background-color: #b86c4a;
+	color: white;
+	font-weight: bold;
+}
+
+.tabContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin: 2rem;
+    width: 100%;
+}
+
+.grid {
+	display: grid; 
+	grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    justify-content: center;
+	gap: 1.5rem;
+    padding: 1rem;
+	width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.accountSection {
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.gridWish {
+    display: grid; 
+	grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    justify-content: center;
+	gap: 1.5rem;
+    padding: 1rem;
+	width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}

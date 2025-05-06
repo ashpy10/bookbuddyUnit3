@@ -1,0 +1,71 @@
+.container {
+	padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #CDD5C2;
+    margin: 10px;
+    border-radius: 10px;
+	box-shadow: 8 8px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.header {
+	margin-bottom: 1.5rem;
+}
+
+.controls {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+}
+
+.search {
+	padding: 0.5rem;
+	font-size: 1rem;
+	flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    outline: none
+}
+
+.sortButtons {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.sortButton {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border: 1px solid #b86c4a;
+	border-radius: 8px;
+	background-color: white;
+	color: #b86c4a;
+	transition: background-color 0.2s ease;
+}
+
+.sortButton:hover {
+	background-color: #f5e8df;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	max-height: 600px; 
+	overflow-y: auto;
+}
+
+.title {
+    color: #C1886D;
+    font-size: 24px; 
+}
+
+.subtitle {
+    font-size: 16px;
+    padding-left: 2rem;
+    color: #C1886D;
+
+}

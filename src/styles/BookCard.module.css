@@ -1,0 +1,96 @@
+.card {
+	flex: 0 0 auto;
+	width: 250px;
+	height: 400px; 
+	padding: 1rem;
+	background-color: #ffe4cc;
+	border-radius: 8px;
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s;
+	scroll-snap-align: center;
+	transform-origin: center center;
+	z-index: 1;
+	position: relative;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+	transform: scale(.95);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+	z-index: 10;
+	background-color: #ffd9b0;
+}
+
+.image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+	margin-bottom: 0.5rem;
+}
+
+.title {
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #695D4E;
+	margin-bottom: 0.25rem;
+}
+
+.author {
+	font-size: 0.95rem;
+	color: #695D4E;
+}
+
+.wishlistIconWrapper {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.wishlistIcon {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	z-index: 2;
+	border-radius: 50%;
+	padding: 2px 6px;
+	transition: transform 0.2s ease;
+}
+
+.wishlistIcon:hover {
+	transform: scale(1.2);
+}
+
+.button {
+	font-size: 1rem;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	border: 1px solid #b86c4a;
+	border-radius: 8px; 
+	background-color: white;
+	color: #b86c4a;
+	transition: background-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem auto;
+    justify-self: center;
+}
+
+.detailsbutton {
+    font-size: 1rem;
+    text-decoration: underline;
+	cursor: pointer;
+	font-size: 1rem;
+	border: none; 
+	color: #b86c4a;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    justify-self: center;
+}

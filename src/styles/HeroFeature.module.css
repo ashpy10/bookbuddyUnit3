@@ -1,0 +1,96 @@
+.hero {
+	position: relative;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2rem;
+	background-color: white;
+    min-height: 400px;
+    border-bottom: .5px solid #CDD5C2;
+    padding-bottom: 2rem;
+}
+
+.cover {
+	position: relative;
+    left: 8%;
+    width: 400px;
+	height: auto;
+	object-fit: contain;
+    max-width: 100%;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+.featureBox {
+	position: relative;
+	background-color: #cdd8be;
+	padding: 2rem;
+	border-radius: 4px;
+	width: 340px;
+	z-index: 2; 
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    border-radius: 10px;
+}
+
+.heading {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #222;
+	margin-bottom: 1rem;
+}
+
+.bookDetails {
+	background-color: #f7d8b3;
+	padding: 1rem;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.title {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #222;
+	margin: 0;
+}
+
+.subtitle {
+	font-size: 1rem;
+	color: #555;
+	margin: 0.25rem 0 0 0;
+}
+
+.reserve {
+	background-color: #e0e0e0;
+	border: none;
+	padding: 0.5rem 1rem;
+	font-size: 0.95rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.reserve:hover:enabled {
+	background-color: #d5d5d5;
+}
+
+.button {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border: 1px solid #b86c4a;
+	border-radius: 8px; 
+	background-color: white;
+	color: #b86c4a;
+	transition: background-color 0.2s ease;
+}

@@ -1,0 +1,35 @@
+.scrollContainer {
+	display: flex;
+	overflow-x: auto;
+	gap: 3rem;
+	padding: 1rem;
+	scroll-behavior: smooth;
+}
+
+.scrollContainer::-webkit-scrollbar {
+	height: 4px;
+}
+.scrollContainer::-webkit-scrollbar-thumb {
+	background: #c8a988;
+	border-radius: 4px;
+}
+.scrollContainer::-webkit-scrollbar-track {
+	background: #f8f1ea;
+}
+
+.title {
+    color: #BC7557;
+}
+
+.staffSection {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+
+}
+
+.subtitle {
+    margin-left: 2rem;
+    color: #C1886D;
+}
